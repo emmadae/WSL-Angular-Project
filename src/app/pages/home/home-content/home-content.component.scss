@@ -1,0 +1,98 @@
+.secion-title {
+    text-transform: uppercase;
+    margin: 1em;
+    font-family: "Roboto Condensed", sans-serif; 
+}
+.flex-container { margin: 2em; }
+
+/* HEADLINE CARDS ================================= */
+.cards-headline {
+    overflow: hidden;
+    float: left;
+	width: 40em;
+    height: auto;
+    color: white;
+    padding: 0;
+    margin: 1em;
+
+    // gray out layer over image
+    .gray-out {
+        position: absolute;
+        width: 40em;
+        z-index: 50;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.61);
+    }
+    // card content layer
+    .card-content {
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        width: 90%;
+        z-index: 100;
+        margin: 0 auto;
+        transform: translate(-50%, -50%);
+        text-align: left;
+
+        mat-card-header {
+            mat-card-title {
+                font-family: "Roboto Condensed", sans-serif;
+                margin: 0;
+                font-size: 2em; 
+            }
+            .sub-head-descrip, .sub-head-date {
+                font-family: "Open Sans", sans-serif;
+                color: white;
+                font-size: 1em;
+                margin: 0;
+                font-weight: inherit;
+            }
+            .sub-head-descrip {
+                margin: .5em 0;
+                font-size: .85em;
+            }
+        }
+    }
+    .mat-card-image { margin: 0; }
+    mat-card-actions {
+        padding: 0;
+        margin: 0;
+        .button-watch, .button-read {
+            margin: .3em 0 0 1.3em;
+            border: .5px solid white;
+            background: transparent;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    }
+}
+
+/* SPOTLIGHT CARDS ================================= */
+.right-column {
+    margin-top: 20em;
+}
+.cards-spotlight {
+    box-shadow: none;
+    .card-content {
+		.title {
+            font-weight: bold;
+            color: #36558C;
+        }
+		.sub-head-descrip {
+            color: #333;
+            margin-top: -3px;
+            .congrats-text { color: #4DACDE; }
+        }
+        .sub-head-actions {
+            margin: 0;
+            a { transition: .1s ease-in-out; }
+            a:hover {
+                color: #36558C;
+                transition: .1s ease-in-out;
+            }
+        }
+    }
+}
+
+.cards-headline[_ngcontent-c4] { height: 25em; }

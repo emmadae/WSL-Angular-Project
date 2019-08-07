@@ -1,0 +1,91 @@
+/* Nav Bar */
+mat-toolbar {
+    background: rgb(255,255,255);
+    // background: transparent;
+    // background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.76234243697479) 11%, rgba(255,255,255,1) 51%);
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+
+    .app-navBar {
+        padding: .5em;
+        width: 100%;
+        .link-sub {  float: right; }
+        .text-link, .link-home {
+            margin-top: .6em;
+            margin-right: 1.3em;
+            font-size: .87em;
+            color: #333;
+            font-weight: bold;
+            transition: .24s ease-in-out;
+            font-family: "Roboto Condensed", sans-serif;
+            text-transform: uppercase;
+        }
+        .link-home { 
+            font-size: 1em;
+            color: #333;
+            letter-spacing: 2px;
+            .wsl-large-text {
+                font-size: 1.35em;
+                margin-right: .5em;
+            }
+        }
+        .text-link:hover {
+            color: #0C8E84;
+            transition: .24s ease-in-out;
+        }
+    }
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    margin: 2em auto;
+    .hr-top {
+        width: 95%;
+        margin: 1em auto;
+        border: .5px solid #ddd;
+    }
+    .footer-links {
+        margin: 1em 0;
+        mat-list {
+            .footer-title {
+                color: #333;
+            }
+            .footer-link {
+                font-size: 14.5px;
+                cursor: pointer;
+                height: 25px;
+                color: #aaa;
+            }
+        }
+    }
+    .hr-bottom {
+        width: 60%;
+        margin: 3em auto 2em auto;
+        border: .5px solid #ddd;
+    }
+    .footer-media {
+        color: #aaa; 
+        img {
+            width: 2.7em;
+            float: left;
+        }
+        .privacy-links {
+            float: left;
+            margin-top: .7em;
+            span { 
+                margin-left: 1.2em;
+                .text-link { color: #36558C; }
+            }
+        }
+        .media-links {
+            font-size: 1.2em;
+            text-align: right;
+            margin-top: .5em;
+            a { 
+                margin-left: .55em;
+            }
+        }
+    }
+}

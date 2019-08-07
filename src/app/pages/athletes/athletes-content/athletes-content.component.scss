@@ -1,0 +1,48 @@
+h2 {
+    font-size: 1.75em;
+}
+hr {
+    border: .5px solid #ddd;
+    width: 100%;
+    margin: 3em auto;
+}
+
+mat-card {
+    width: fit-content;
+    height: fit-content;
+    float: left;
+    margin: 1em;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+
+    .div-left{
+        .athlete-headshot-image {
+            background-color: #F5F5F5;
+            width: 10em;
+            height: 10em;
+            border-radius: 50%;
+        }
+        .athlete-flag {
+            border-top: 3px solid white;
+            border-left: 3px solid white;
+            position: absolute;
+            margin: 8.1em 0 0 -2.5em;
+            width: 2.25em;
+        }
+    }
+
+    .div-right {
+        p { margin-top: -.75em; }
+    }
+}
+
+/* Hover Effect Mat Cards */
+.mat-card { 
+    box-shadow: none;
+    transition: .2s ease-in-out;
+}
+.mat-card:hover { 
+    box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);
+    transition: .2s ease-in-out;
+}

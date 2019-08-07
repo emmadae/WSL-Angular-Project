@@ -1,0 +1,81 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Universal Sub Page Headings */
+.universal-page-heading {
+    .page-heading {
+        max-height: 350px;
+        overflow: hidden;
+        max-width: 100%;
+        text-align: center;
+        color: white;
+    
+        h1 { 
+            font-size: 5em;
+            letter-spacing: 2px;
+            position: absolute;
+            text-transform: uppercase;
+            top:16%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;
+        }
+        .gray-out {
+            width: 100%;
+            height: 350px;
+            position: absolute;
+            z-index: 50;
+            background-color: rgba(0, 0, 0, 0.61);
+        }
+
+        /* Lazy Load Images */
+        .wrapper {
+            position: relative;
+            width: 100%;
+            height: 1000px;
+            min-width: 960px;
+            img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 20;
+            }
+            .fanart {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-position: 0 0;
+                background-size: cover;
+                transition: opacity 1s;
+                opacity: 0;
+            }
+            .ng-lazyloaded { opacity: 1; }
+        }
+        .events-wrapper { height: 500px; }
+        .watch-wrapper { height: 800px }
+        .athletes-wrapper { height: 1100px; }
+    }
+    .flex-container {
+        margin-top: 2em;
+    }
+}

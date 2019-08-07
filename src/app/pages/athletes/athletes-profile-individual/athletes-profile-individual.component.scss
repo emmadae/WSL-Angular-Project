@@ -1,0 +1,105 @@
+.athlete-cover-image {
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        margin-top: -10em;
+    }
+}
+
+/* Athlete Headshot */
+.athlete-head-shot{
+    margin: -8em 0 0 0;
+    .head-shot {
+        width: fit-content;
+        margin: 0 auto;
+        position: relative;
+        .athlete-headshot-image {
+            background-color: #F5F5F5;
+            width: 14em;
+            height: 14em;
+            border-radius: 50%;
+        }
+        .athlete-flag {
+            border-top: 3px solid white;
+            border-left: 3px solid white;
+            position: absolute;
+            margin: 11em 0 0 -3.5em;
+            width: 3.25em;
+        }
+    }
+    .athlete-name {
+        letter-spacing: 1px;
+        font-size: 2em;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .athlete-country {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+}
+
+/* Athlete Statistics */
+.athlete-stats {
+    text-align: center;
+    margin-top: 2em;
+    text-transform: uppercase;
+    p {
+        font-size: .94em;
+        margin-bottom: 0;
+    }
+    h1 { margin: .4em 0 .8em }
+}
+
+/* About Athlete */
+.athlete-about {
+    // width: 50%;
+    // margin: -12em 0em 1em 48%;
+    margin: 2em 2em 2em 1em;
+
+    .about-title {
+        text-transform: uppercase;
+        font-size: 1.2em;
+    }
+    .about-text {
+        position: relative;
+        max-height: 200px;
+        overflow: hidden;
+        transition: max-height .8s ease;
+    }
+    .expandText {
+        max-height: 100vh;
+    }
+    .about-text:not(.expandText)::after {
+        transition: max-height .8s ease;
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, .5));
+    }
+
+    button { 
+        font-size: .9em;
+        padding: 10px;
+        background: transparent;
+        border: none;
+        float: right;
+        color: #36558C;
+        cursor: pointer;
+        transition: .2s ease-in-out;
+    }
+    button:hover { 
+        background: #eee;
+        transition: .2s ease-in-out;
+    }
+    button:focus { outline: 0; }
+}

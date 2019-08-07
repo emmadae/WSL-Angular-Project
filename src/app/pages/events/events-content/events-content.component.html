@@ -1,0 +1,28 @@
+<div *ngIf="data !== undefined" class="flex-container" fxLayout="column" fxLayoutAlign="start stretch">
+    <div *ngFor="let section of data" class="sections" fxFlex="100" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+        <h2>{{section.title}}</h2>
+        <mat-card *ngFor="let tour of section.tour" class="event-card">
+            <div class="tour-dates">
+                <span class="td-spec">{{tour.spec}}</span>
+                <span class="td-spacer">||</span>
+                <span class="td-date">{{tour.date}}</span>
+            </div>
+            <div class="tour-details">
+                <span class="td-title">{{tour.header}}</span><br>
+                <span class="td-location">{{tour.location}}</span>
+            </div>
+            <hr>
+            <div class="tour-champ">
+                <div class="tc-left">
+                    <img class="tc-headshot" src="{{tour.champ_image}}">
+                </div>
+                <div class="tc-right">
+                    <span class="tc-standing">{{tour.champ_standing}}</span><br>
+                    <span class="tc-name">{{tour.champion}}</span><br>
+                    <span class="tc-country">{{tour.champ_country}}</span>
+                </div>
+            </div>
+            <hr>
+        </mat-card>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+.terms-and-policies {
+    width: 50%;
+    margin: 8em auto 3em auto;
+    h1, h2, h3 {
+        text-transform: uppercase;
+        margin-top: .5em;
+    }
+    h1 { 
+        font-size: 4em;
+        margin-bottom: 0;
+    }
+    h2 { 
+        font-size: 2.5em;
+        margin: 1em 0 -.75em 0;
+    }
+    h3 {
+        font-size: 1.75em;
+        margin-top: 2em;
+    }
+    .date-effective { text-align: right; }
+}

@@ -1,0 +1,43 @@
+<!-- Individual Athlete Component (Modal) -->
+<div class="flex-container" fxLayout="column" fxLayoutAlign="start stretch">
+    <!-- Athlete Background Cover Image -->
+    <div class="athlete-cover-image">
+        <img src="{{data.coverImage}}">
+    </div>
+
+    <div class="flex-container" fxLayout="row" fxLayoutAlign="start stretch">
+        <!-- Head Shot -->
+        <div class="athlete-head-shot" fxFlex="24">
+            <div class="head-shot">
+                <img class="athlete-headshot-image" src="{{data.image}}">
+                <img class="athlete-flag" src="{{data.flagLink}}">
+            </div>
+            <h2 class="athlete-name">{{data.name}}</h2>
+            <p class="athlete-country">{{data.country}}</p>
+        </div>
+
+        <!-- Stats -->
+        <div class="athlete-stats" fxFlex="18">
+            <p>Average Score</p>
+            <h1>{{data.averageScore}}</h1>
+
+            <p>Heat Wins</p>
+            <h1>{{data.heatWins}}</h1>
+
+            <p>Rank</p>
+            <h1>{{data.rank}}</h1>
+
+            <div *ngIf="data.rookieYear !== ''" class="athlete-rookie-yr">
+                <p class="rookie-lable">Rookie Year</p>
+                <h1 class="rookie-yr">{{data.rookieYear}}</h1>
+            </div>
+        </div>
+
+        <!-- About -->
+        <div class="athlete-about" fxFlex="58">
+            <h3 class="about-title">About:</h3>
+            <p [ngClass]="expand ? 'expandText' : ''" class="about-text">{{data.about}}</p>
+            <button class="expand-button" (click)="expandText()">{{readingText}} About {{data.name}}</button>
+        </div>
+    </div>
+</div>

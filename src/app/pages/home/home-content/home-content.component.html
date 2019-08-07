@@ -1,0 +1,48 @@
+<!-- Home Content -->
+<div class="flex-container" fxLayout="row" fxLayoutAlign="start stretch">
+	<div class="left-column" fxFlex="75">
+		<h1 class="secion-title">What's Happening In The World Of Surfing</h1>
+		<!-- Cards -->
+		<div *ngIf="dataHeadline !== undefined">
+			<mat-card *ngFor="let card of dataHeadline" class="cards-headline" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<div class="card-content">
+					<mat-card-header>
+						<mat-card-subtitle class="sub-head-date">{{card.date}}</mat-card-subtitle>
+						<mat-card-title class="title">{{card.title}}</mat-card-title>
+						<mat-card-subtitle class="sub-head-descrip">{{card.description}}</mat-card-subtitle>
+					</mat-card-header>
+					<mat-card-actions>
+						<a *ngIf="card.action === 'Watch Video'" href="{{card.link}}"><button class="button-watch" mat-raised-button>Watch The Action</button></a>
+						<a *ngIf="card.action === 'Read Article'" href="{{card.link}}"><button class="button-read" mat-raised-button>Read More</button></a>				
+					</mat-card-actions>
+				</div>
+				<div class="gray-out"></div>
+				<img mat-card-image src="{{card.imagePlaceholder}}">
+			</mat-card>
+		</div>
+	</div>
+	<div fxFlex="3"></div>
+	<div class="right-column" fxFlex="23">
+		<h1 class="secion-title">Event Spotlight</h1>
+		<!-- Spotlight Info -->
+		<div *ngIf="dataSpotlight !== undefined">
+			<mat-card *ngFor="let card of dataSpotlight" class="cards-spotlight" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+				<div class="card-content">
+					<mat-card-header>
+						<mat-card-subtitle class="sub-head-date">
+							{{card.eventCategory}} | {{card.location}}
+						</mat-card-subtitle>
+						<mat-card-title class="title">{{card.title}}</mat-card-title>
+						<mat-card-subtitle class="sub-head-descrip">
+							<span class="congrats-text">Congratulations,</span>
+							{{card.eventWinner}}
+						</mat-card-subtitle>
+						<mat-card-subtitle class="sub-head-actions">
+							<a href="#">Results</a> | <a href="#">Replay</a>
+						</mat-card-subtitle>
+					</mat-card-header>
+				</div>
+			</mat-card>
+		</div>
+	</div>
+</div>

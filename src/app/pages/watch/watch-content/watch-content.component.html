@@ -1,0 +1,38 @@
+<!-- Watch Content -->
+<div *ngIf="data !== undefined" class="flex-container" fxLayout="column" fxLayoutAlign="start stretch">
+    <div class="video-container" fxFlex="100">
+        <!-- Video Player Component -->
+        <div class="video-display">
+            <h2>Currently Playing</h2>
+            <iframe src="https://www.youtube.com/embed/QcUTyoEnemc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-details">
+                <h2 class="video-title">{{currentVideo.videoTitle}}</h2>
+                <div class="video-subDetails">
+                    <span class="video-publisher">{{currentVideo.videoSubDetails}} - </span><span class="video-date">{{currentVideo.videoDate}}</span><br>
+                    <p class="video-text">{{currentVideo.videoText}}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="featured-container" fxFlex="100">
+        <h2>Featured</h2>
+        <!-- Slider Component -->
+        <div class="slider-container">
+            <div class="slides" #slides>
+                <mat-card *ngFor="let data of data" class="video-card">
+                    <img mat-card-image src="{{data.videoImage}}">
+                    <div class="video-card-header">
+                        <mat-card-title class="video-card-title">{{data.videoTitle}}</mat-card-title>
+                        <mat-card-subtitle class="video-card-text">{{data.videoDate}}</mat-card-subtitle>
+                    </div>
+                </mat-card>
+            </div>
+            <div class="controls">
+                <button matTooltip="Scroll Left" matTooltipPosition="above" mat-icon-button (click)="scrollLeft()"><i class="icon fas fa-arrow-circle-left"></i></button>
+                <div class="controls-spacer"><h2>Scroll Throught All The Action</h2></div>
+                <button matTooltip="Scroll Right" matTooltipPosition="above" mat-icon-button (click)="scrollRight()"><i class="icon fas fa-arrow-circle-right"></i></button>
+            </div>
+        </div>
+    </div>
+</div>

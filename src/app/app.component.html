@@ -1,0 +1,92 @@
+<!-- Navigation Menu Bar -->
+<mat-toolbar>
+    <div class="app-navBar">
+        <a class="link-home" routerLink="/" routerLinkActive="active"><span class="wsl-large-text">WSL //</span>World Surf League</a>
+        <div class="link-sub">
+            <a class="text-link" routerLink="/" routerLinkActive="active">Home</a>            
+            <a class="text-link" routerLink="/about" routerLinkActive="active">About</a>
+            <a class="text-link" routerLink="/events" routerLinkActive="active">Events</a>
+            <a class="text-link" routerLink="/athletes" routerLinkActive="active">Athletes</a>
+            <a class="text-link" routerLink="/statistics" routerLinkActive="active">Statistics</a>
+            <a class="text-link" routerLink="/watch" routerLinkActive="active">Watch</a>
+            <a class="text-link" routerLink="/store" routerLinkActive="active">Store</a>
+        </div>
+    </div>
+</mat-toolbar>
+<!-- Router and Page Content -->
+<div class="app-container">
+    <router-outlet></router-outlet>
+</div>
+<!-- Footer -->
+<footer class="footer">
+    <!-- Footer Internal Links -->
+    <hr class="hr-top">
+    <div class="flex-container footer-links" fxLayout="row" fxLayoutAlign="start stretch">
+        <div fxFlex="28.5"></div>
+        <div fxFlex="10">
+            <mat-list role="list">
+                <mat-list-item role="listitem" class="footer-title"><b>Surfing</b></mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Events</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Rankings</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Fantasy</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Big Wave Awards</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Competitor Services</mat-list-item>
+            </mat-list>
+        </div>
+        <div fxFlex="1"></div>
+        <div fxFlex="10">
+            <mat-list role="list">
+                <mat-list-item role="listitem" class="footer-title"><b>World Surf League</b></mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">About</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">History</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">FAQs</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Rules and Regulations</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Careers</mat-list-item>
+            </mat-list>
+        </div>
+        <div fxFlex="1"></div>
+        <div fxFlex="10">
+            <mat-list role="list">
+                <mat-list-item role="listitem" class="footer-title"><b>Discover</b></mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Official Store</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">PURE: Ocean Health</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Travel</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Kelly Slater Wave Co.</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Surfline: Official Forecast Partner</mat-list-item>
+            </mat-list>
+        </div>
+        <div fxFlex="1"></div>
+        <div fxFlex="10">
+            <mat-list role="list">
+                <mat-list-item role="listitem" class="footer-title"><b>Contact</b></mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Press</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Sponsorship</mat-list-item>
+                <mat-list-item role="listitem" class="footer-link">Give Feedback</mat-list-item>
+            </mat-list>
+        </div>
+        <div fxFlex="28.5"></div>
+    </div>
+    <!-- Footer Media Links -->
+    <hr class="hr-bottom">
+    <div class="flex-container footer-media" fxLayout="row" fxLayoutAlign="start stretch">
+        <div fxFlex="24"></div>
+        <div fxFlex="38">
+            <img src="../assets/images/logo/WSL_LOGO_black.png">
+            <div class="privacy-links">
+                <span>© 2018 World Surf League</span>
+                <span><a class="text-link" routerLink="/terms-and-policies" routerLinkActive="active">Privacy</a></span>
+                <span><a class="text-link" routerLink="/terms-and-policies" routerLinkActive="active">Terms</a></span>
+            </div>
+        </div>
+        <div fxFlex="14">
+            <div class="media-links">
+                <a href="https://www.facebook.com/wsl" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/wsl/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/wsl" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.youtube.com/wsl" target="_blank"><i class="fab fa-youtube"></i></a>
+                <a href="https://open.spotify.com/user/worldsurfleague" target="_blank"><i class="fab fa-spotify"></i></a>
+            </div>
+        </div>
+        <div fxFlex="24"></div>
+    </div>
+</footer>

@@ -1,0 +1,74 @@
+[
+    { 
+        "videoTitle": "XO Coco Ho Documentary - A Look at The Famous Surfer's Career",
+        "videoSubDetails": "Volcom",
+        "videoDate": "Published on Mar 23, 2018",
+        "videoText": "Dive into the colorful story of female surfer Coco Ho from Oahu’s North Shore and learn how she got started surfing, her rich surfing family history, ups and downs on the Championship Tour, and everything in between. Including exclusive interviews with brother, Mason Ho, father, Michael Ho, and world champion surfers John John Florence and Stephanie Gilmore.",
+        "videoImage": "https://stayloud.skullcandy.com/wp-content/uploads/2017/06/IMG_8057-1.jpg",
+        "videoLink": "https://www.youtube.com/embed/QcUTyoEnemc"
+    },
+    { 
+        "videoTitle": "Supergirl Spotlight | Pro Surfer Sage Erickson",
+        "videoSubDetails": "ASA Entertainment",
+        "videoDate": "Published on Jun 8, 2018",
+        "videoText": "Supergirl Spotlight | Pro Surfer Sage Erickson",
+        "videoImage": "https://1.bp.blogspot.com/-qt8z8DrXGe8/VqgALB9SuDI/AAAAAAAAJjw/L7jgCYBwSUs/s1600/SageErickson_photoby_LukiOKeefe_Seea_08.jpg",
+        "videoLink": "https://www.youtube.com/embed/l9lgZzHk8m4"
+    },
+    {
+        "videoTitle": "2018 Billabong Pipe Masters - Final Day Highlights | Triple Crown of Surfing | VANS",
+        "videoSubDetails": "Vans",
+        "videoDate": "Published on Dec 17, 2018",
+        "videoText": "The waves were going off, Medina was going off. Watch the best moments of the final day of the Billabong Pipe Masters!",
+        "videoImage": "https://i.ytimg.com/vi/iwYIiBaT7eo/maxresdefault.jpg",
+        "videoLink": "https://www.youtube.com/embed/A_0tgAVjQPw"
+    },
+    { 
+        "videoTitle": "Roxy Pro Gold Coast, Quarterfinals, Heat 3",
+        "videoSubDetails": "ASA Entertainment",
+        "videoDate": "Published on Jun 8, 2018",
+        "videoText": "Supergirl Spotlight | Pro Surfer Sage Erickson",
+        "videoImage": "http://dqndusk8a84ol.cloudfront.net/image/889bf012300956c9ce1d6072203db7ee.jpg?&x=900&y=534&cx=0&cy=746&cw=4124&ch=2450&icq=74&sig=7f0623e83faed725d4a5511f1dce3cb5",
+        "videoLink": "http://www.worldsurfleague.com/posts/313993/roxy-pro-qf3?playlistId=370394"
+    },
+    { 
+        "videoTitle": "Quiksilver Pro Gold Coast: QF, Heat 4 - Full Heat Replay",
+        "videoSubDetails": "ASA Entertainment",
+        "videoDate": "Published on Jun 8, 2018",
+        "videoText": "Supergirl Spotlight | Pro Surfer Sage Erickson",
+        "videoImage": "http://dqndusk8a84ol.cloudfront.net/image/7a8095151b8d27512ceaddadfc325d52.jpg?&x=600&y=356&icq=74&sig=4c52da87384d24fafc049f22b98144ab",
+        "videoLink": "http://www.worldsurfleague.com/posts/360776/quiksilver-pro-gold-coast-mens-championship-tour-quarterfinals-heat-4-full-heat-replay?playlistId=371279"
+    },
+    { 
+        "videoTitle": "Roxy Pro Gold Coast, Quarterfinals, Heat 1",
+        "videoSubDetails": "ASA Entertainment",
+        "videoDate": "Published on Jun 8, 2018",
+        "videoText": "Supergirl Spotlight | Pro Surfer Sage Erickson",
+        "videoImage": "http://dqndusk8a84ol.cloudfront.net/image/57cd8a0aa87c94d70f7e84ef954063c1.jpg?&x=600&y=356&cx=340&cy=805&cw=2605&ch=1546&icq=74&sig=21ae9ba6b50bd0a75c1e580c839385e7",
+        "videoLink": "http://www.worldsurfleague.com/posts/313991/roxy-pro-qf1?playlistId=370394"
+    },
+    { 
+        "videoTitle": "Roxy Pro Gold Coast, Quarterfinals, Heat 3",
+        "videoSubDetails": "ASA Entertainment",
+        "videoDate": "Published on Jun 8, 2018",
+        "videoText": "Supergirl Spotlight | Pro Surfer Sage Erickson",
+        "videoImage": "http://dqndusk8a84ol.cloudfront.net/image/889bf012300956c9ce1d6072203db7ee.jpg?&x=900&y=534&cx=0&cy=746&cw=4124&ch=2450&icq=74&sig=7f0623e83faed725d4a5511f1dce3cb5",
+        "videoLink": "http://www.worldsurfleague.com/posts/313993/roxy-pro-qf3?playlistId=370394"
+    },
+    { 
+        "videoTitle": "Quiksilver Pro Gold Coast: QF, Heat 4 - Full Heat Replay",
+        "videoSubDetails": "ASA Entertainment",
+        "videoDate": "Published on Jun 8, 2018",
+        "videoText": "Supergirl Spotlight | Pro Surfer Sage Erickson",
+        "videoImage": "http://dqndusk8a84ol.cloudfront.net/image/7a8095151b8d27512ceaddadfc325d52.jpg?&x=600&y=356&icq=74&sig=4c52da87384d24fafc049f22b98144ab",
+        "videoLink": "http://www.worldsurfleague.com/posts/360776/quiksilver-pro-gold-coast-mens-championship-tour-quarterfinals-heat-4-full-heat-replay?playlistId=371279"
+    },
+    { 
+        "videoTitle": "Roxy Pro Gold Coast, Quarterfinals, Heat 1",
+        "videoSubDetails": "ASA Entertainment",
+        "videoDate": "Published on Jun 8, 2018",
+        "videoText": "Supergirl Spotlight | Pro Surfer Sage Erickson",
+        "videoImage": "http://dqndusk8a84ol.cloudfront.net/image/57cd8a0aa87c94d70f7e84ef954063c1.jpg?&x=600&y=356&cx=340&cy=805&cw=2605&ch=1546&icq=74&sig=21ae9ba6b50bd0a75c1e580c839385e7",
+        "videoLink": "http://www.worldsurfleague.com/posts/313991/roxy-pro-qf1?playlistId=370394"
+    }
+]

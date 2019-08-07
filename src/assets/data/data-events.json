@@ -1,0 +1,143 @@
+[
+    { 
+        "title": "2019 Men's Championship Tour",
+        "tour": [
+            {
+                "header": "Quiksilver Pro Gold Coast",
+                "location": "Gold Coast, Queensland, Australia",
+                "champion": "Julian Wilson",
+                "champ_standing": "Defending Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/6650ddd7af818ac408461cea6656f46d.png?&x=250&y=250&icq=74&sig=2ab05f4e6347f306a6d103298df4f8cc",
+                "champ_country": "Australia",
+                "date": "Upcoming: Apr 3 - 13",
+                "spec": "CT #1"
+            },
+            {
+                "header": "Rip Curl Pro Bells Beach",
+                "location": "Bells Beach, Victoria, Australia",
+                "champion": "Italo Ferreira",
+                "champ_standing": "Defending Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/5f2a9d7bcf0952ad59a545aeab2f62e8.png?&x=250&y=250&icq=74&sig=b73a51ab109200842b4cc51e5c6f3ea5",
+                "champ_country": "Brazil",
+                "date": "Upcoming: Apr 17 - 27",
+                "spec": "CT #2"
+            },
+            {
+                "header": "Bali Pro",
+                "location": "Keramas, Bali, Indonesia",
+                "champion": "Italo Ferreira",
+                "champ_standing": "Defending Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/5f2a9d7bcf0952ad59a545aeab2f62e8.png?&x=250&y=250&icq=74&sig=b73a51ab109200842b4cc51e5c6f3ea5",
+                "champ_country": "Brazil",
+                "date": "Upcoming: May 13 - 25",
+                "spec": "CT #3"
+            }
+        ]
+    },
+    { 
+        "title": "2019 Women's Championship Tour",
+        "tour": [
+            {
+                "header": "Boost Mobile Pro",
+                "location": "Gold Coast, Queensland, Australia",
+                "champion": "Lakey Peterson",
+                "champ_standing": "Defending Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/e4bc2114ece650eae004ee5627ca0c1f.png?&x=250&y=250&icq=74&sig=c136b1b85e524a2ab528b427d95b6995",
+                "champ_country": "United States",
+                "date": "Upcoming: Apr 3 - 13",
+                "spec": "CT #1"
+            },
+            {
+                "header": "Rip Curl Pro Bells Beach",
+                "location": "Bells Beach, Victoria, Australia",
+                "champion": "Italo Ferreira",
+                "champ_standing": "Defending Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/2186217206264dc7e231e3349f4def79.png?&x=250&y=250&icq=74&sig=1306daf45f97038d25996b49ef698710",
+                "champ_country": "Australia",
+                "date": "Upcoming: Apr 17 - 27",
+                "spec": "CT #2"
+            },
+            {
+                "header": "Bali Pro",
+                "location": "Keramas, Bali, Indonesia",
+                "champion": "Lakey Peterson",
+                "champ_standing": "Defending Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/e4bc2114ece650eae004ee5627ca0c1f.png?&x=250&y=250&icq=74&sig=c136b1b85e524a2ab528b427d95b6995",
+                "champ_country": "United States",
+                "date": "Upcoming: May 13 - 25",
+                "spec": "CT #3"
+            }
+        ]
+    },
+    { 
+        "title": "2018 Men's Championship Tour",
+        "tour": [
+            {
+                "header": "Quiksilver Pro France",
+                "location": "Landes, Nouvelle-Aquitaine, France",
+                "champion": "Julian Wilson",
+                "champ_standing": "Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/6650ddd7af818ac408461cea6656f46d.png?&x=250&y=250&icq=74&sig=2ab05f4e6347f306a6d103298df4f8cc",
+                "champ_country": "Australia",
+                "date": "Complete: Oct 3 - 14",
+                "spec": "CT #9"
+            },
+            {
+                "header": "MEO Rip Curl Pro Portugal",
+                "location": "Peniche, Portugal",
+                "champion": "Italo Ferreira",
+                "champ_standing": "Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/5f2a9d7bcf0952ad59a545aeab2f62e8.png?&x=250&y=250&icq=74&sig=b73a51ab109200842b4cc51e5c6f3ea5",
+                "champ_country": "Brazil",
+                "date": "Complete: Oct 16 - 27",
+                "spec": "CT #10"
+            },
+            {
+                "header": "Billabong Pipe Masters",
+                "location": "Banzai Pipeline, Oahu, Hawaii",
+                "champion": "Gabriel Medina",
+                "champ_standing": "Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/fbd40ea299b5f39603b2e82332c9ba3c.png?&x=250&y=250&icq=74&sig=552b38799f1aeece71020588481ef41b",
+                "champ_country": "Brazil",
+                "date": "Complete: Dec 8 - 20",
+                "spec": "CT #11"
+            }
+        ]
+    },
+    { 
+        "title": "2018 Women's Championship Tour",
+        "tour": [
+            {
+                "header": "Surf Ranch Pro - Women's",
+                "location": "Lemoore, California, United States",
+                "champion": "Carissa Moore",
+                "champ_standing": "Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/bc951f20ec5e7e7e501868d4e68dc9ab.png?&x=250&y=250&icq=74&sig=cbe36882076012d1be0d6aa847551e37",
+                "champ_country": "Hawaii",
+                "date": "Complete: Sep 6 - 9",
+                "spec": "CT #8"
+            },
+            {
+                "header": "Roxy Pro France",
+                "location": "Landes, Nouvelle-Aquitaine, France",
+                "champion": "Courtney Conlogue",
+                "champ_standing": "Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/e8f10ae213ed78347c52a1c23d8d36ea.png?&x=250&y=250&icq=74&sig=316bb528726ed340f4a3eff1c43cdc09",
+                "champ_country": "Unites States",
+                "date": "Complete: Oct 3 - 14",
+                "spec": "CT #9"
+            },
+            {
+                "header": "Beachwaver Maui Pro",
+                "location": "Honolua Bay, Maui, Hawaii",
+                "champion": "Carissa Moore",
+                "champ_standing": "Champion",
+                "champ_image": "http://dqndusk8a84ol.cloudfront.net/image/bc951f20ec5e7e7e501868d4e68dc9ab.png?&x=250&y=250&icq=74&sig=cbe36882076012d1be0d6aa847551e37",
+                "champ_country": "Hawaii",
+                "date": "Complete: Nov 25 - Dec 6",
+                "spec": "CT #10"
+            }
+        ]
+    }
+]
+    

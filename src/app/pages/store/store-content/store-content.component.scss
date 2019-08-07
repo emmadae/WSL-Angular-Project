@@ -1,0 +1,205 @@
+/* Row 1 */
+.store-category-section {
+    background: #F3F5F4;
+    height: 550px;
+    margin-top: -2em;
+    .arrow-down {
+        width: 0; 
+        height: 0; 
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-top: 32px solid #071723;
+        margin-left: 10em;
+    }
+    .shop-text {
+        margin: 0;
+        padding: 1em;
+        text-transform: uppercase;
+        font-size: 4em;
+    }
+    .brand-logos {
+        margin: 0 1em 1em 2.5em;
+        img { 
+            width: 7em;
+            cursor: pointer;
+        }
+    }
+
+    /* Shop Mens Specifics */
+    .shop-mens {
+        img {
+            width: 28.2em;
+            margin: 2em 0;
+        }
+        .shop-overlay {
+            width: 28.2em;
+            margin: 2em 0;
+            height: 28.2em;
+        }
+    }
+
+    /* Shop Jersey Specifics */
+    .shop-jersey {
+        img {
+            width: 25em;
+            margin: 4em 0;
+        }
+        .shop-overlay {
+            width: 24.2em;
+            margin: 2em 0;
+            height: 28.2em;
+        }
+    }
+
+    /* Shop Other */
+    .shop-other {
+        width: 18em;
+        margin: 2em;
+        img { width: 14em; }
+        .shop-overlay {
+            width: 14em;
+            height: 14em;
+        }
+    }
+
+    /* Image General */
+    .shop-jersey, .shop-his, .shop-other {
+        img {
+            opacity: 1;
+            display: block;
+            height: auto;
+            transition: .2s ease-in-out;
+            backface-visibility: hidden;
+        }
+    }
+
+    /* Shop Overlay General */
+    .shop-overlay {
+        opacity: 0;
+        transition: .2s ease-in-out;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.61);
+    }
+
+    /* Hover Effects Overlay Div */
+    .shop-mens:hover, .shop-jersey:hover, .shop-hers:hover, .shop-kids:hover {
+        cursor: pointer;
+        .shop-overlay {
+            opacity: 1;
+        }
+    }
+
+    /* Button General */
+    .shop-overlay span {
+        font-family: "Roboto Condensed", sans-serif;
+        top: 47%;
+        position: relative;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: .13s ease-in-out;
+        font-size: 1.3em;
+        letter-spacing: 1.1px;
+        text-decoration: none;
+    }
+    .shop-overlay span:hover { 
+        color: #8ACED7;
+        transition: .13s ease-in-out;
+    }
+}
+
+/* Row 2 */
+.store-champ-section {
+    background: #333;
+    background-image: url("../../../../assets/images/background-img-store.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: -2em;
+    .arrow-down {
+        width: 0; 
+        height: 0; 
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-top: 32px solid #F3F5F4;
+        position: absolute;
+        right: 10em;
+    }
+    .male-champ, .female-champ {
+        background-color: white;
+        height: 400px;
+        img {
+            width: 27em;
+            margin: 0 0 0 2.2em;
+        }
+        .champ-text {
+            padding: 1em;
+            margin-top: 1.5em;
+            text-align: center;
+            h3 {
+                text-transform: uppercase;
+                font-size: 1.7em;
+            }
+            button { 
+                margin-top: 1.4em;
+                background: #008C9A;
+                color: white;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: .5px;
+                transition: .2s ease-in-out;
+            }
+            button:hover { 
+                background: #01525E;
+                transition: .2s ease-in-out;
+            }
+        }
+    }
+    .male-champ { margin: 6em 3em 6em 6em;  }
+    .female-champ { margin: 6em 6em 6em 3em; }
+
+}
+
+/* Row 2 */
+.store-jersey-section {
+    height: 550px;
+    margin-top: 0;
+    .arrow-down {
+        width: 0; 
+        height: 0; 
+        border-left: 35px solid transparent;
+        border-right: 35px solid transparent;
+        border-top: 32px solid #01363E;
+        margin-left: 10em;
+    }
+    .jersey-img { 
+        margin-top: 5em;
+        background-repeat: no-repeat;
+        cursor: pointer;
+    }
+
+    .jersey-img-1 { background-image: url("https://d3fic6bj5pagcw.cloudfront.net/media/catalog/product/cache/20/small_image/420x/040ec09b1e35df139433887a97daa66f/a/j/aj18_m_om_bra_toledo-back.jpg"); }
+    .jersey-img-1:hover { background-image: url("https://d3fic6bj5pagcw.cloudfront.net/media/catalog/product/cache/20/small_image/420x/040ec09b1e35df139433887a97daa66f/a/j/aj18_m_om_bra_toledo-f.jpg"); }
+
+    .jersey-img-2 { background-image: url("https://d3fic6bj5pagcw.cloudfront.net/media/catalog/product/cache/20/small_image/420x/040ec09b1e35df139433887a97daa66f/a/j/aj18_m_om_aus_-wilson_back.jpg"); }
+    .jersey-img-2:hover { background-image: url("https://d3fic6bj5pagcw.cloudfront.net/media/catalog/product/cache/20/small_image/420x/040ec09b1e35df139433887a97daa66f/a/j/aj18_m_om_aus_wilson-front.jpg") };
+    
+    .jersey-img-3 { background-image: url("https://d3fic6bj5pagcw.cloudfront.net/media/catalog/product/cache/20/small_image/420x/040ec09b1e35df139433887a97daa66f/a/j/aj18_m_om_haw_florence-b.jpg"); }
+    .jersey-img-3:hover { background-image: url("https://d3fic6bj5pagcw.cloudfront.net/media/catalog/product/cache/20/small_image/420x/040ec09b1e35df139433887a97daa66f/a/j/aj18_m_om_haw_florence-f.jpg") };
+
+    .jersey-img-4 { background-image: url("https://d3fic6bj5pagcw.cloudfront.net/media/catalog/product/cache/20/small_image/420x/040ec09b1e35df139433887a97daa66f/a/j/aj18_m_om_bra_medina-b_1.jpg"); }
+    .jersey-img-4:hover { background-image: url("https://d3fic6bj5pagcw.cloudfront.net/media/catalog/product/cache/20/small_image/420x/040ec09b1e35df139433887a97daa66f/a/j/aj18_m_om_bra_medina-f.jpg") };
+}
+
+.jerseys-link {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    transition: .15s ease-in-out;
+}
+.jerseys-link:hover {
+    transition: .15s ease-in-out;
+    color: #11B0B9;
+}
